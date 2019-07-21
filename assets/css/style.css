@@ -1,33 +1,70 @@
 body{
 	background-image: url("../images/background2.png")
 }
+
+
 div{
 	background-color: aquamarine;
 	margin: 10px;
 	width: 25%
 }
+
+
 div{
 	border: solid 2px blue;
 	padding: 10px;
 }
+
+
 h1, span{
 	font-weight: bold;
 	text-align: center;
 }
+
+
 h1{
 	font-size: 30pt;
 }
+
+
 ol{
 	list-style: decimal inside; 
 }
-ul {
+
+
+ul{
 	list-style: disc inside;
 	text-indent: 20px;
 }
+
+
 div.header, div.gems{
 	background-color: lightgoldenrodyellow;
 	width: 390px;
 }
+
+
 div.header, div.instructions{
 	width: 50%;
+}
+
+
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 32px;
+}
+
+.userTotal{
+	width: 22%;
+	height: 20px;
+}
+
+.gems{
+	clear: both;
+}
+
+.gemImage{
+	height: 60px;
+	margin: 10px;
 }
