@@ -2,7 +2,7 @@ body{
 	background-image: url("../images/background2.png")
 }
 div{
-	background-color: white;
+	background-color: aquamarine;
 	margin: 10px;
 	width: 25%
 }
@@ -23,4 +23,11 @@ ol{
 ul {
 	list-style: disc inside;
 	text-indent: 20px;
+}
+div.header, div.gems{
+	background-color: lightgoldenrodyellow;
+	width: 390px;
+}
+div.header, div.instructions{
+	width: 50%;
 }
