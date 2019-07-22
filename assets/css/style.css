@@ -27,9 +27,9 @@ h1{
 }
 
 
-ol{
+/* ol{
 	list-style: decimal inside; 
-}
+} */
 
 
 ul{
@@ -55,14 +55,17 @@ div.header, div.instructions{
 	height: 32px;
 }
 
+
 .userTotal{
 	width: 22%;
 	height: 20px;
 }
 
+
 .gems{
 	clear: both;
 }
+
 
 .gemImage{
 	height: 60px;
