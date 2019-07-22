@@ -20,4 +20,20 @@ $(document).ready(function () {
     $('#numberWins').text(wins);
     $('#numberLosses').text(losses);
 
+
+    function win() {
+        alert("You are so SMART!! You WON!");
+        wins++;
+        $('#numberWins').text(wins);
+        reset();
+    }
+
+    
+    function lose() {
+        alert("Try Harder next time.. You LOSE!");
+        losses++;
+        $('#numberLosses').text(losses);
+        reset()
+    }
+
 }
