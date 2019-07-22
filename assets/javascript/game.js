@@ -28,7 +28,7 @@ $(document).ready(function () {
         reset();
     }
 
-    
+
     function lose() {
         alert("Try Harder next time.. You LOSE!");
         losses++;
@@ -36,4 +36,11 @@ $(document).ready(function () {
         reset()
     }
 
+    $('#one').on('click', function () {
+        userTotal = userTotal + num1;
+
+
+
+
+    }
 }
