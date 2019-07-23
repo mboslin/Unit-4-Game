@@ -16,7 +16,7 @@ $(document).ready(function () {
     var wins = 0;
     var losses = 0;
 
-}
+
 
     $('#numberWins').text(wins);
     $('#numberLosses').text(losses);
@@ -58,8 +58,10 @@ $('#one').on('click', function () {
     else if (userTotal > Random) {
         lose();
     }
+
 })  
     
+
 $('#two').on ('click', function(){
     userTotal = userTotal + num2;
     console.log("New userTotal= " + userTotal);
@@ -72,4 +74,33 @@ $('#two').on ('click', function(){
         } 
   })  
 
-}
+  $('#three').on ('click', function(){
+    userTotal = userTotal + num3;
+    console.log("New userTotal= " + userTotal);
+    $('#finalTotal').text(userTotal);
+    
+//sets win/lose conditions
+
+          if (userTotal == Random){
+          win();
+        }
+        else if ( userTotal > Random){
+          lose();
+        } 
+  })  
+
+
+  $('#four').on ('click', function(){
+    userTotal = userTotal + num4;
+    console.log("New userTotal= " + userTotal);
+    $('#finalTotal').text(userTotal); 
+      
+          if (userTotal == Random){
+          win();
+        }
+        else if ( userTotal > Random){
+          lose();
+        }
+  }); 
+
+});
